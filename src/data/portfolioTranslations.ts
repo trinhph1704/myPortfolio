@@ -18,7 +18,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
   vi: {
     profile: {
       name: 'PHAN HỒNG TRINH',
-      avatar: 'https://querulous-amber-guscksq5cm.edgeone.app/ChatGPT%20Image%2013_33_36%2025%20thg%203,%202026.png',
+      avatar: 'https://i.ibb.co/XZHChYxf/Chat-GPT-Image-13-33-36-25-thg-3-2026.png',
       birthDate: '2002',
       location: 'Linh Trung, Thủ Đức, Tp. Hồ Chí Minh',
       phone: '0327377569',
@@ -294,7 +294,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
   en: {
     profile: {
       name: 'PHAN HONG TRINH',
-      avatar: 'https://querulous-amber-guscksq5cm.edgeone.app/ChatGPT%20Image%2013_33_36%2025%20thg%203,%202026.png',
+      avatar: 'https://i.ibb.co/XZHChYxf/Chat-GPT-Image-13-33-36-25-thg-3-2026.png',
       birthDate: '2002',
       location: 'Linh Trung, Thu Duc, Ho Chi Minh City',
       phone: '0327377569',
