@@ -11,6 +11,7 @@ export interface Profile {
   linkedin?: string;
   github?: string;
   facebook?: string;
+  tiktok?: string;
   instagram?: string;
   threads?: string;
   softSkills: string[];

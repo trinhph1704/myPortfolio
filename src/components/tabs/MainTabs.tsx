@@ -1,10 +1,11 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import TabContent, { type MainTab, type DevSubTab } from './TabContent';
 import DevSubTabs from './DevSubTabs';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { briefIntroBullets } from '../../contexts/LanguageContext';
-import { CV_URL } from '../../constants/urls';
+import { CV_URLS } from '../../constants/urls';
+import { trackSectionView } from '../../utils/analytics';
 
 const mainTabIds: MainTab[] = ['non-it', 'frontend', 'fullstack', 'sap'];
 const mainTabKeys = ['tabNonIt', 'tabFrontend', 'tabFullstack', 'tabSap'] as const;
@@ -16,6 +17,21 @@ export default function MainTabs() {
   const { t, language } = useLanguage();
 
   const isDevTab = activeTab !== 'non-it';
+  useEffect(() => {
+    trackSectionView(activeTab, isDevTab ? devSubTab : null);
+  }, [activeTab, devSubTab, isDevTab]);
+  const handleCvDownload = () => {
+    CV_URLS.forEach((url) => {
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = '';
+      link.rel = 'noreferrer';
+      link.target = '_blank';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    });
+  };
 
   const heroCopy = useMemo(
     () =>
@@ -72,20 +88,21 @@ export default function MainTabs() {
             )}
             <div className="flex gap-3 pt-2">
               <a
-                href="mailto:phanvanbin232@gmail.com?subject=Interview%20Request&body=Hi%20Trinh,%20let's%20talk%20about%20..."
+                href="https://zalo.me/0327377569"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-portfolio-accent text-portfolio-text-primary font-semibold text-sm shadow-lg shadow-portfolio-accent/30 transition hover:-translate-y-0.5"
               >
                 {heroCopy.cta}
                 <span aria-hidden>→</span>
               </a>
-              <a
-                href={CV_URL}
-                target="_blank"
-                rel="noreferrer"
+              <button
+                type="button"
+                onClick={handleCvDownload}
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 text-portfolio-text-primary text-sm font-semibold hover:border-portfolio-accent/40 hover:text-portfolio-accent transition"
               >
                 {heroCopy.secondary}
-              </a>
+              </button>
               <button
                 onClick={() => setIntroExpanded(!introExpanded)}
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 text-portfolio-text-muted text-sm font-semibold hover:border-portfolio-accent/30 hover:text-portfolio-accent transition"

@@ -19,7 +19,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
     profile: {
       name: 'PHAN HỒNG TRINH',
       avatar: 'https://i.ibb.co/XZHChYxf/Chat-GPT-Image-13-33-36-25-thg-3-2026.png',
-      birthDate: '2002',
+      birthDate: '25/05/2003',
       location: 'Linh Trung, Thủ Đức, Tp. Hồ Chí Minh',
       phone: '0327377569',
       email: 'phanvanbin232@gmail.com',
@@ -31,7 +31,8 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
       ],
       linkedin: '#',
       github: 'https://github.com/trinhph1704',
-      facebook: '#',
+      facebook: 'https://www.facebook.com/phan.hong.trinh.2024/',
+      tiktok: 'https://www.tiktok.com/@phanhngtrinh?_r=1&_t=ZS-958kYYd47cm',
       instagram: '#',
       threads: '#',
       softSkills: [
@@ -202,7 +203,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '06/2025 - 12/2025',
         description: 'Nền tảng học tập cộng đồng với Next.js 16, React 19, Firebase và PayOS.',
         techStack: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS'],
-        link: 'https://studyhub.app',
+        link: 'https://exe201-study-68ox-bqi0ow4wf-trinhs-projects-6134ccd8.vercel.app/',
         details: [
           'Phát triển 66+ REST API endpoints với Next.js, Firebase Firestore và PayOS',
           'Tích hợp PayOS (webhook + confirm API) cho VIP upgrade và đặt lịch mentor',
@@ -224,7 +225,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '10/2025 - 03/2026',
         description: 'Phát triển hệ thống xét nghiệm ADN end-to-end với Next.js App Router, Supabase và PayOS.',
         techStack: ['Next.js App Router', 'TypeScript', 'Supabase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS', 'Ant Design'],
-        link: 'https://bloodlinedna.com',
+        link: 'https://adn-web-j6lfv9km5-trinhs-projects-6134ccd8.vercel.app/',
         details: [
           'Phát triển 40+ API routes (Auth, Services/Prices, Booking, Kit/Sample/Result, Logistics, Feedback, Payments) với Next.js App Router + TypeScript',
           'Xây dựng luồng Đặt lịch xét nghiệm end-to-end: BookingModal 3 bước, tạo testBooking/testKit, cập nhật trạng thái và điều hướng theo tiến trình',
@@ -295,7 +296,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
     profile: {
       name: 'PHAN HONG TRINH',
       avatar: 'https://i.ibb.co/XZHChYxf/Chat-GPT-Image-13-33-36-25-thg-3-2026.png',
-      birthDate: '2002',
+      birthDate: '25/05/2003',
       location: 'Linh Trung, Thu Duc, Ho Chi Minh City',
       phone: '0327377569',
       email: 'phanvanbin232@gmail.com',
@@ -307,7 +308,8 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
       ],
       linkedin: '#',
       github: 'https://github.com/trinhph1704',
-      facebook: '#',
+      facebook: 'https://www.facebook.com/phan.hong.trinh.2024/',
+      tiktok: 'https://www.tiktok.com/@phanhngtrinh?_r=1&_t=ZS-958kYYd47cm',
       instagram: '#',
       threads: '#',
       softSkills: [
@@ -475,7 +477,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '06/2025 - 12/2025',
         description: 'Community learning platform with Next.js 16, React 19, Firebase and PayOS.',
         techStack: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS'],
-        link: 'https://studyhub.app',
+        link: 'https://exe201-study-68ox-bqi0ow4wf-trinhs-projects-6134ccd8.vercel.app/',
         details: [
           'Developed 66+ REST API endpoints with Next.js, Firebase Firestore and PayOS',
           'Integrated PayOS (webhook + confirm API) for VIP upgrade and mentor booking',
@@ -497,7 +499,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '10/2025 - 03/2026',
         description: 'Built an end-to-end DNA testing platform with Next.js App Router, Supabase, and PayOS.',
         techStack: ['Next.js App Router', 'TypeScript', 'Supabase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS', 'Ant Design'],
-        link: 'https://bloodlinedna.com',
+        link: 'https://adn-web-j6lfv9km5-trinhs-projects-6134ccd8.vercel.app/',
         details: [
           'Developed 40+ API routes (Auth, Services/Prices, Booking, Kit/Sample/Result, Logistics, Feedback, Payments) with Next.js App Router + TypeScript',
           'Built an end-to-end test booking flow: 3-step BookingModal, testBooking/testKit creation, status updates, and progress-based navigation',
