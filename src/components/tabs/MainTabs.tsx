@@ -86,12 +86,12 @@ export default function MainTabs() {
                 {t('briefIntro')}
               </p>
             )}
-            <div className="flex gap-3 pt-2">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 pt-2">
               <a
                 href="https://zalo.me/0327377569"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-portfolio-accent text-portfolio-text-primary font-semibold text-sm shadow-lg shadow-portfolio-accent/30 transition hover:-translate-y-0.5"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-portfolio-accent text-portfolio-text-primary font-semibold text-sm shadow-lg shadow-portfolio-accent/30 transition hover:-translate-y-0.5"
               >
                 {heroCopy.cta}
                 <span aria-hidden>→</span>
@@ -99,25 +99,25 @@ export default function MainTabs() {
               <button
                 type="button"
                 onClick={handleCvDownload}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 text-portfolio-text-primary text-sm font-semibold hover:border-portfolio-accent/40 hover:text-portfolio-accent transition"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 text-portfolio-text-primary text-sm font-semibold hover:border-portfolio-accent/40 hover:text-portfolio-accent transition"
               >
                 {heroCopy.secondary}
               </button>
               <button
                 onClick={() => setIntroExpanded(!introExpanded)}
-                className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 text-portfolio-text-muted text-sm font-semibold hover:border-portfolio-accent/30 hover:text-portfolio-accent transition"
+                className="inline-flex w-full sm:w-auto items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-white/10 text-portfolio-text-muted text-sm font-semibold hover:border-portfolio-accent/30 hover:text-portfolio-accent transition"
               >
                 {introExpanded ? t('hideDetails') : t('seeDetails')}
               </button>
             </div>
           </div>
-          <div className="flex flex-wrap w-full lg:w-auto items-center justify-between lg:justify-end gap-2 lg:gap-4">
+          <div className="grid grid-cols-2 gap-2 w-full lg:flex lg:w-auto lg:items-center lg:justify-end lg:gap-4">
             {heroCopy.metrics.map((metric) => (
               <div
                 key={metric.label}
-                className="px-4 py-3 rounded-xl bg-white/5 border border-white/10 shadow-inner min-w-0 flex-1 lg:flex-initial lg:flex-none"
+                className="px-4 py-3 rounded-xl bg-white/5 border border-white/10 shadow-inner min-w-0 lg:flex-initial"
               >
-                <div className="text-xs uppercase tracking-[0.12em] text-portfolio-text-muted font-semibold whitespace-nowrap">
+                <div className="text-xs uppercase tracking-[0.12em] text-portfolio-text-muted font-semibold sm:whitespace-nowrap">
                   {metric.label}
                 </div>
                 <div className="text-xl font-bold text-portfolio-accent leading-tight">
@@ -137,7 +137,7 @@ export default function MainTabs() {
               setActiveTab(tabId);
               if (tabId !== 'non-it') setDevSubTab('projects');
             }}
-            className={`relative px-4 py-2.5 text-sm font-medium rounded-lg transition-colors ${
+            className={`relative px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-colors ${
               ''
             }`}
           >

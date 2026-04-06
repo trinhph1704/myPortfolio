@@ -86,7 +86,7 @@ export default function ProjectCard({ project, index = 0, expanded = false, onEx
       whileHover={{ y: -4, transition: { duration: 0.2 } }}
       className="group p-5 rounded-xl bg-gradient-to-br from-portfolio-bg-secondary to-portfolio-bg-tertiary border border-white/5 hover:border-portfolio-accent/30 shadow-[0_10px_40px_-20px_rgba(0,0,0,0.6)] transition-all duration-300"
     >
-      <div className="flex items-start justify-between gap-3">
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
         <div className="space-y-1">
           <h3 className="font-semibold text-portfolio-text-primary group-hover:text-portfolio-accent transition-colors">
             {project.title}
@@ -105,10 +105,10 @@ export default function ProjectCard({ project, index = 0, expanded = false, onEx
             ))}
           </div>
         </div>
-        <div className="flex flex-col items-end gap-2">
+        <div className="flex flex-col items-start sm:items-end gap-2">
           <button
             onClick={handleDetailClick}
-            className="flex-shrink-0 inline-flex items-center gap-1 px-3 py-2 rounded-lg bg-portfolio-accent/15 text-portfolio-accent text-xs font-semibold border border-portfolio-accent/30 hover:bg-portfolio-accent/25 transition whitespace-nowrap"
+            className="flex-shrink-0 inline-flex w-full sm:w-auto items-center justify-center gap-1 px-3 py-2 rounded-lg bg-portfolio-accent/15 text-portfolio-accent text-xs font-semibold border border-portfolio-accent/30 hover:bg-portfolio-accent/25 transition whitespace-nowrap"
           >
             {t('details')}
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

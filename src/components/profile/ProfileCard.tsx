@@ -21,7 +21,7 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
           onClick={() => window.open(profile.avatar, '_blank')}
           role="button"
           aria-label="Open portrait"
-          className="w-56 h-56 rounded-full object-cover border-2 border-portfolio-accent/30 shadow-lg shadow-portfolio-accent/10 cursor-zoom-in"
+          className="w-40 h-40 sm:w-56 sm:h-56 rounded-full object-cover border-2 border-portfolio-accent/30 shadow-lg shadow-portfolio-accent/10 cursor-zoom-in"
           style={{ objectPosition: 'center 25%' }}
         />
       </div>

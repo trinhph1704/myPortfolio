@@ -20,12 +20,12 @@ export default function DevSubTabs({ active, onChange, showCapstone = false }: D
   ];
 
   return (
-    <div className="flex gap-2 p-1 rounded-lg bg-portfolio-bg-secondary border border-white/5 w-fit mb-4">
+    <div className="flex flex-wrap gap-2 p-1 rounded-lg bg-portfolio-bg-secondary border border-white/5 w-full sm:w-fit mb-4">
       {tabs.map((tab) => (
         <button
           key={tab.id}
           onClick={() => onChange(tab.id)}
-          className="relative px-4 py-2 text-sm font-medium rounded-md transition-colors"
+          className="relative px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-md transition-colors whitespace-nowrap"
         >
           {active === tab.id && (
             <motion.span
