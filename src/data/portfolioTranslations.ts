@@ -203,7 +203,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '06/2025 - 12/2025',
         description: 'Nền tảng học tập cộng đồng với Next.js 16, React 19, Firebase và PayOS.',
         techStack: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS'],
-        link: 'https://exe201-study-68ox-bqi0ow4wf-trinhs-projects-6134ccd8.vercel.app/',
+        link: 'https://exe201-study-68ox-egacg5m26-trinhs-projects-6134ccd8.vercel.app/',
         details: [
           'Phát triển 66+ REST API endpoints với Next.js, Firebase Firestore và PayOS',
           'Tích hợp PayOS (webhook + confirm API) cho VIP upgrade và đặt lịch mentor',
@@ -477,7 +477,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '06/2025 - 12/2025',
         description: 'Community learning platform with Next.js 16, React 19, Firebase and PayOS.',
         techStack: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS'],
-        link: 'https://exe201-study-68ox-bqi0ow4wf-trinhs-projects-6134ccd8.vercel.app/',
+        link: 'https://exe201-study-68ox-egacg5m26-trinhs-projects-6134ccd8.vercel.app/',
         details: [
           'Developed 66+ REST API endpoints with Next.js, Firebase Firestore and PayOS',
           'Integrated PayOS (webhook + confirm API) for VIP upgrade and mentor booking',
