@@ -150,6 +150,30 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
     ],
     frontendExperience: [
       {
+        id: 'fe-exp4',
+        title: 'Frontend Developer',
+        company: 'Theodore Alexander',
+        period: '04/2026 - 07/2026',
+        description: 'Phát triển giao diện Next.js responsive từ Figma, tối ưu SEO, hiệu năng và tích hợp RESTful APIs.',
+        techStack: [
+          'Next.js App Router',
+          'ReactJS',
+          'TypeScript',
+          'Figma to Code',
+          'Tailwind CSS',
+          'Shadcn UI',
+          'SSR & CSR',
+          'SEO',
+        ],
+        link: 'https://theodorealexander.com',
+        details: [
+          'Chuyển đổi các thiết kế UI/UX phức tạp từ Figma thành giao diện Next.js pixel-perfect, responsive cao trên nhiều kích thước màn hình',
+          'Tối ưu kiến trúc Next.js cho Google SEO và tận dụng SSR/CSR để cải thiện đáng kể tốc độ tải trang ban đầu',
+          'Xây dựng các React components và custom Hooks sạch, có khả năng tái sử dụng, giúp codebase dễ mở rộng và bảo trì',
+          'Phối hợp chặt chẽ với đội ngũ backend để tích hợp RESTful APIs vào frontend Next.js, đảm bảo dữ liệu hiển thị liền mạch',
+        ],
+      },
+      {
         id: 'fe-exp3',
         title: 'Frontend Developer Freelance',
         company: 'ARTSY',
@@ -170,7 +194,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '02/2024 - 04/2024',
         description: 'Designed & developed WordPress từ Figma, RESTful APIs real-time.',
         techStack: ['WordPress', 'Figma', 'RESTful APIs', 'Git'],
-        link: 'https://angeldisablehelp.com',
+        link: 'https://angeldisabilityhelp.com',
         details: [
           'Thiết kế UI/UX trên Figma, phát triển giao diện WordPress động',
           'Tích hợp RESTful APIs → giảm latency 50%',
@@ -203,7 +227,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '06/2025 - 12/2025',
         description: 'Nền tảng học tập cộng đồng với Next.js 16, React 19, Firebase và PayOS.',
         techStack: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS'],
-        link: 'https://exe201-study-68ox-egacg5m26-trinhs-projects-6134ccd8.vercel.app/',
+        link: 'https://exe201-study-subin.vercel.app/',
         details: [
           'Phát triển 66+ REST API endpoints với Next.js, Firebase Firestore và PayOS',
           'Tích hợp PayOS (webhook + confirm API) cho VIP upgrade và đặt lịch mentor',
@@ -426,13 +450,37 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
     ],
     frontendExperience: [
       {
+        id: 'fe-exp4',
+        title: 'Frontend Developer',
+        company: 'Theodore Alexander',
+        period: '04/2026 - 07/2026',
+        description: 'Built responsive Next.js interfaces from Figma while optimizing SEO, performance, and RESTful API integration.',
+        techStack: [
+          'Next.js App Router',
+          'ReactJS',
+          'TypeScript',
+          'Figma to Code',
+          'Tailwind CSS',
+          'Shadcn UI',
+          'SSR & CSR',
+          'SEO',
+        ],
+        link: 'https://theodorealexander.com',
+        details: [
+          'Converted complex Figma UI/UX designs into pixel-perfect, highly responsive Next.js interfaces across multiple screen sizes',
+          'Optimized the Next.js architecture for Google SEO and leveraged SSR/CSR to significantly improve initial page load performance',
+          'Built clean, reusable React components and custom Hooks to improve modularity, scalability, and maintainability',
+          'Collaborated closely with the backend team to integrate RESTful APIs into the Next.js frontend for seamless data rendering',
+        ],
+      },
+      {
         id: 'fe-exp2',
         title: 'Frontend Developer Freelance',
         company: 'AngelDisableHelpLLC',
         period: '02/2024 - 04/2024',
         description: 'Designed & developed WordPress from Figma, RESTful APIs real-time.',
         techStack: ['WordPress', 'Figma', 'RESTful APIs', 'Git'],
-        link: 'https://angeldisablehelp.com',
+        link: 'https://angeldisabilityhelp.com',
         details: [
           'Designed UI/UX in Figma, developed dynamic WordPress interfaces',
           'Integrated RESTful APIs → reduced latency 50%',
@@ -477,7 +525,7 @@ export const portfolioByLang: Record<Lang, PortfolioData> = {
         period: '06/2025 - 12/2025',
         description: 'Community learning platform with Next.js 16, React 19, Firebase and PayOS.',
         techStack: ['Next.js 16', 'React 19', 'TypeScript', 'Firebase', 'PayOS', 'JWT', 'Reactjs', 'Tailwind CSS'],
-        link: 'https://exe201-study-68ox-egacg5m26-trinhs-projects-6134ccd8.vercel.app/',
+        link: 'https://exe201-study-subin.vercel.app/',
         details: [
           'Developed 66+ REST API endpoints with Next.js, Firebase Firestore and PayOS',
           'Integrated PayOS (webhook + confirm API) for VIP upgrade and mentor booking',
